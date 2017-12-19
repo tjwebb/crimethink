@@ -1,0 +1,40 @@
+{
+  "name": "crimethink",
+  "version": "0.0.1",
+  "description": "General purpose permissions resolver for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ignore-path .gitignore . && nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjwebb/crimethink.git"
+  },
+  "keywords": [
+    "permissions",
+    "policies",
+    "rbac",
+    "pbac",
+    "acl",
+    "authorization"
+  ],
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjwebb/crimethink/issues"
+  },
+  "homepage": "https://github.com/tjwebb/crimethink#readme",
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3",
+    "eslint-config-trails": "^3",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  }
+}
