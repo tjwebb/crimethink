@@ -1,7 +1,7 @@
 # crimethink
 
 [![NPM version][npm-image]][npm-url]
-[![Linux + OSX Build Status][ci-image]][ci-url]
+[![Build Status][ci-image]][ci-url]
 
 A general-purpose permissions resolver for node.js. Inspired by [sails-permissions](https://github.com/trailsjs/sails-permissions) and [Shiro](https://shiro.apache.org/index.html).
 
