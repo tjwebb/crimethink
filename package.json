@@ -2,7 +2,7 @@
   "name": "crimethink",
   "version": "0.0.1",
   "description": "General purpose permissions resolver for node.js",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "eslint --ignore-path .gitignore . && nyc mocha"
   },
