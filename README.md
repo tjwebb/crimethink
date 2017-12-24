@@ -38,12 +38,12 @@ An Express-compatible [Route Path](http://expressjs.com/en/guide/routing.html) s
   - any contact
 - `/contact/123`
   - the contact with id=123
-- `/contact/:id
+- `/contact/:id`
   - any contact where `id` satisfies Permission Criteria
 
 ## API
 
-### `Subject.isPermitted(action, resource [, params])
+### `Subject.isPermitted(action, resource)`
 
 Returns `true` if `user` is permitted to perform the given `action` on the given `resource`; `false`, otherwise.
 
